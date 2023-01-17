@@ -1,0 +1,68 @@
+.cardInicio{
+    background-color: $colorGris;
+    font-family: Rubik-Italic ;
+    padding: 25px;
+    margin-top: 50px;
+    h3{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    p{
+        padding-left: 50px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    a{
+        @include a (#D97823, #365902)
+    }
+}
+
+@media(max-width:730px){
+    .cardInicio{
+        padding: 20px;
+        margin-top: 40px;
+        h3{
+            font-size: 25px;
+            padding-left: 15px;
+        }
+        p{
+            font-size: 15px;
+            padding-left: 50px;
+            margin-top: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+       a{
+            width: 100px;
+            height: 50px;
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 25px;
+        }
+    }
+}
+
+@media(max-width:435px){
+    .cardInicio{
+        padding: 20px;
+        margin-top: 15px;
+    }
+    .h3-InicioCard{
+        font-size: 23px;
+        padding-left: 13px;
+    }
+    .p-InicioCard{
+        font-size: 13px;
+        margin-top: 20px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .BotonNosConIngrUbiInicio{
+        width: 85px;
+        height: 35px;
+        font-size: 13px;
+        margin-left: 13px;
+        margin-top: 15px;
+    }
+}

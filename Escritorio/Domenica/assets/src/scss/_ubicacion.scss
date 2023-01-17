@@ -1,0 +1,96 @@
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    h1{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        padding: 10px;
+    }
+}
+
+@media (max-width:600px){
+    .ubicacionInfo{
+        font-size: 20px;
+    }
+    .mapa{
+        margin: 15px;
+    }
+}
+
+
+@media (max-width:730px){
+    .ubicacion{
+        margin: 15px;
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+
+.mapaEindicaciones{
+    display: flex;
+    flex-wrap: wrap;
+    .mapa{
+        font-family: Rubik-Italic ;
+        margin: 25px;
+        width: 600px;
+        ul{
+            margin: 20px;
+            font-size: 20px;
+        }
+    }
+}
+
+.mediosTransporte{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 25px;
+    h2{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        padding: 20px;
+    }
+}
+
+@media (max-width:1300px){
+    .mapaEindicaciones{
+        justify-content: center;
+    }
+    .mediosTransporte{
+        justify-content: start;
+    }
+}
+
+.ColeTrenSubte{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    p{
+        font-family: Rubik-Italic ;
+        font-weight: 800;
+        line-height: 50px;
+        font-size: 18px;
+    }
+}
+@media (max-width:555px){
+    .mapa{
+        li{
+            font-size: 15px;
+        }
+    }
+    .mediosTransporte{
+        padding: 20px;
+        h2{
+            font-size: 15px;
+         }
+    }
+    .ColeTrenSubte{
+        display: flex;
+        justify-content: start;
+        margin-left: 25px;
+        p{
+            font-size: 12px;
+        }
+    }
+}
