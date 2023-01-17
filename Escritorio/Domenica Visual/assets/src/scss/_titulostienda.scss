@@ -1,0 +1,81 @@
+.tituloTienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik-Italic ;
+    padding: 15px;
+    h1{
+        background: $colorRosaDifuminado;
+        padding: 8px;
+    }
+}
+
+.tituloProductoDestacado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik-Italic ;
+    h1{
+        background: $colorRosaDifuminado;
+        padding: 20px;
+    }
+}
+
+.prodTeamDulceYSalado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        padding: 20px;
+    }
+}
+
+@media (max-width:730px){
+    .tituloTienda{
+        padding: 15px;
+        h1{
+            font-size: 25px;
+            padding: 8px;
+        }
+    }
+    
+    .tituloProductoDestacado{
+        h1{
+            font-size: 25px;
+            padding: 20px;
+        }
+    }
+    
+    .prodTeamDulceYSalado{
+        h2{
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width:600px){
+    .tituloTienda{
+        padding: 15px;
+        h1{
+            font-size: 20px;
+            padding: 8px;
+        }
+    }
+    
+    .tituloProductoDestacado{
+        h1{
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
+    
+    .prodTeamDulceYSalado{
+        h2{
+            font-size: 15px;
+            padding: 20px;
+        }
+    }
+}
