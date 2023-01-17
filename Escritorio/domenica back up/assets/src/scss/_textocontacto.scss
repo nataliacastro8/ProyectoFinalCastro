@@ -1,0 +1,118 @@
+.Contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    h1{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        width: 150px;
+        padding: 5px;
+    }
+    h3{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        display: flex;
+        align-items: center;
+        padding: 7px;
+    }
+}
+
+.cuadroConsulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    ul{
+        font-family: Rubik-Italic ;
+        width: 350px;
+        padding: 25px 50px 25px 50px;
+        border:  10px solid $colorRosa;
+    }
+}
+.comencemos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        padding: 10px;
+    }
+}
+
+.cuadroIndicaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    ul{
+        font-family: Rubik-Italic ;
+        width: 650px;
+        padding: 25px 50px 25px 50px;
+        border:  5px solid $colorRosa;
+    }
+}
+@media (max-width:730px){
+    .Contacto{
+        font-size: 13px;
+        padding: 5px;
+        h1{
+            width: 120px;
+        }
+    }
+    .cuadroConsulta{
+        ul{
+            font-size: 13px;
+            width: 300px;
+            padding: 20px 45px 20px 45px;
+            border:  8px solid $colorRosa;
+        }
+    }
+    .comencemos{
+        h2{
+            font-size: 20px;
+        }
+    }
+    .cuadroIndicaciones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        ul{
+            font-size: 15px;
+            width: 500px;
+            padding: 20px 45px 20px 45px;
+            border:  3px solid $colorRosa;
+        }
+    }
+}
+@media (max-width:540px){
+    .Contacto{
+        font-size: 10px;
+        h1{
+            width: 95px;
+        }
+    }
+    .cuadroConsulta{
+        ul{
+            font-size: 10px;
+            width: 300px;
+            padding: 12px 30px 12px 30px;
+            border:  3px solid $colorRosa;
+        }
+    }
+    .comencemos{
+        h2{
+            font-size: 15px;
+        }
+    }
+    .cuadroIndicaciones{
+        ul{
+            font-size: 10px;
+            width: 410px;
+            padding: 15px 30px 15px 30px;
+            border:  3px solid $colorRosa;
+        }
+    }
+}

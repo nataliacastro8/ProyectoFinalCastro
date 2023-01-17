@@ -1,0 +1,91 @@
+.formulario{
+    background-color: $colorGris;
+    font-family: Rubik-Italic ;
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 10px auto;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 10% 10% 10%;
+    grid-template-areas: "nombre  ...      ...  "
+                         "apell   ...      ...  "
+                         "mail    ...      ...  "
+                         "mensaj  mensaj  mensaj "
+                         "sexoF   sexoM   sexoNB"
+                         "term    ...      ...  "
+                         "...     ...      btn  ";
+    .casillerosFormNombre{
+        grid-area: nombre;
+    }
+    .casillerosFormNombre{
+        grid-area: nombre;
+    }                     
+    .casillerosFormApellido{
+        grid-area: apell;
+    }
+    .casillerosFormMail{
+        grid-area: mail;
+    }
+    textarea{
+        grid-area: mensaj;
+    }
+    label:nth-child(5){
+        grid-area: sexoF;
+    }
+    label:nth-child(6){
+        grid-area: sexoM;
+    }
+    label:nth-child(7){
+        grid-area: sexoNB;
+    }
+    label:nth-child(8){
+        grid-area: term;
+    }
+    .botonForm{
+        grid-area: btn;
+        height: 50px;
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 1000;
+        border: none;
+    } 
+}
+
+@media (max-width:625px){
+    .formulario{
+        max-width: 500px;
+        margin: 10px auto;
+        gap: 8px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 10% 10% 10%;
+        grid-template-areas: "nombre  nombre   nombre"
+                             "apell   apell    apell  "
+                             "mail    mail      mail  "
+                             "mensaj  mensaj  mensaj "
+                             "sexoF   sexoM   sexoNB"
+                             "term    term      term   "
+                             "btn     btn      btn  ";
+    }
+}
+@media (max-width:540px){
+    .formulario{
+        max-width: 300px;
+        gap: 5px;
+        display: grid;
+        grid-template-columns: 25% 33% 42%;
+        grid-template-rows: 10% 10% 10%;
+        grid-template-areas: "nombre  nombre   nombre"
+                             "apell   apell    apell  "
+                             "mail    mail      mail  "
+                             "mensaj  mensaj  mensaj "
+                             "sexoF   sexoM   sexoNB"
+                             "term    term      term   "
+                             "btn     btn      btn  ";
+    }
+}

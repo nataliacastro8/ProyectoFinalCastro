@@ -1,0 +1,45 @@
+.cardsNosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .cardNosotros{
+        font-family: Rubik-Italic ;
+        background-color: $colorGris;
+        display: flex;
+        align-items: center;
+        margin: 50px;
+        width: 600px;
+        column-gap: 40px;
+        padding: 20px;
+    }
+}
+
+@media (max-width:835px){
+    .cardNosotros{
+        font-size: 14px;
+        column-gap: 20px;
+        padding: 13px;
+        img{
+            width: 200px;
+        }
+    }
+}
+    
+@media (max-width:720px){
+    .cardNosotros{
+        margin: 50px;
+        width: 600px;
+        column-gap: 10px;
+        img{
+            width: 150px;
+        }
+    }
+}
+@media (max-width:600px){
+    .cardNosotros{
+        font-size: 13px;
+        img{
+            width: 100px;
+        }
+    }
+}

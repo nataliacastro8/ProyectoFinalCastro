@@ -1,0 +1,44 @@
+.HeaderBajoNavbar{
+    background-image: url(../img/fondoheader.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    grid-area: header;
+}
+@media(max-width:730px){
+    .HeaderBajoNavbar{
+        background-image: url(../img/fondoheader.jpeg);
+        background-size: cover;
+        width: 100%;
+        height: 80px;
+    }
+}
+@media(max-width:600px){
+    .HeaderBajoNavbar{
+        background-image: url(../img/fondoheader.jpeg);
+        background-size: cover;
+        width: 100%;
+        height: 60px;
+    }
+}
+.HeaderBajoNavbarInfo{
+    color: $colorRosa;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 600px;
+}
+@media(max-width:730px){
+    .HeaderBajoNavbarInfo{
+        color: $colorRosa;
+        font-size: 20px;
+        text-align: center;
+        padding-right: 500px;
+    }
+}
+@media(max-width:600px){
+    .HeaderBajoNavbarInfo{
+        color: $colorRosa;
+        padding-right: 100px;
+        font-size: 15px;
+    }
+}
