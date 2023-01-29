@@ -1,0 +1,16 @@
+@mixin a ($background, $color){
+    display: inline-flex;
+    width: 120px;
+    height: 50px;
+    background-color: $background;
+    font-family: Rubik-Italic ;
+    text-decoration: none;
+    color: $color;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 1000;
+    border: none;
+    margin-left: 20px;
+    margin-top: 25px;
+}

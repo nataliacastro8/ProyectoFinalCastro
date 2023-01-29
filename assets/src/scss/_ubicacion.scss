@@ -1,0 +1,72 @@
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    h1{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        padding: 10px;
+    }
+}
+@media (max-width:600px){
+    .ubicacionInfo{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:730px){
+    .ubicacion{
+        margin: 15px;
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+.mapaEindicaciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    column-gap: 20px;
+    line-height: 45px;
+    .mediosTransporte{
+            background: #d9325ea2;
+            font-family: Rubik-Italic ;
+            padding: 5px;
+            width: 320px;
+    }
+    p{
+        font-family: Rubik-Italic ;
+    }
+}
+@media (max-width:500px){
+    .mapaEindicaciones{
+        .iconos{
+            font-size: 13px;
+        }
+        .mediosTransporte{
+            font-size: 15px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            width: 205px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width:400px){
+    .mapaEindicaciones{
+        .iconos{
+            font-size: 10px;
+        }
+        .mediosTransporte{
+            font-size: 13px;
+            width: 180px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+}

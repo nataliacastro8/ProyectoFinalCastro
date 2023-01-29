@@ -1,0 +1,74 @@
+.cardsProd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .cardProd{
+        font-family: Rubik-Italic ;
+        background-color: $colorGris;
+        display: flex;
+        margin: 50px;
+        width: 600px;
+        column-gap: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        .imgProd{
+            width: 200px;
+        }
+        .InfoProdDulce{
+            button{
+                @extend %button;
+                margin-left: 160px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width:620px){
+    .cardsProd{
+        .cardProd{
+            margin: 20px;
+            width: 600px;
+            column-gap: 20px;
+            padding: 20px;
+            .imgProd{
+                width: 100px;
+                height: 100px;
+            }
+            .InfoProdDulce{
+                font-size: 15px;
+                button{
+                    width: 100px;
+                    height: 30px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:440px){
+    .cardsProd{
+        .cardProd{
+            margin: 15px;
+            column-gap: 15px;
+            padding: 15px;
+            .imgProd{
+                width: 80px;
+                height: 80px;
+            }
+            .InfoProdDulce{
+                font-size: 10px;
+                button{
+                    width: 60px;
+                    height: 25px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+

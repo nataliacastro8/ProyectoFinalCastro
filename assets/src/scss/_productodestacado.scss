@@ -1,0 +1,45 @@
+.cardProdDestacado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .cardLemonPie{
+        background-color: #e9856e;
+        margin: 50px;
+        width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        img{
+            width: 200px;
+            height: 100px;
+            padding-bottom: 10px;
+        }
+        .productoDestacadoInfo{
+            font-family: Rubik-Italic ;
+        }
+        button{
+            @extend %button;
+            margin-left: 210px;
+        }
+    }
+}
+@media(max-width:440px){
+    .cardProdDestacado{
+        .cardLemonPie{
+            margin: 50px;
+            width: 390px;
+            padding: 20px;
+            img{
+                width: 150px;
+                height: 80px;
+            }
+            .productoDestacadoInfo{
+                font-size: 13px;
+            }
+            button{
+                width: 100px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+}

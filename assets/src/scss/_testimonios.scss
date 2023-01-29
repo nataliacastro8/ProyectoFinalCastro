@@ -1,0 +1,93 @@
+.tituloTestimonios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+    h2{
+        background: $colorRosaDifuminado;
+        font-family: Rubik-Italic ;
+        font-size: 40px;
+        padding: 15px;
+    }
+}
+@media(max-width:480px){
+    .h2Testimonios{
+        font-size: 30px;
+    }
+}
+.cardsTestimonios{
+    display: flex;
+    justify-content: center;
+    .card-testimonios{
+        background-color: #ece8c3;
+        margin: 10px;
+        width: 700px;
+        padding: 25px;
+        .imgYtitulo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                width: 200px;
+                height: 150px;
+                margin: 10px;
+                &:hover{
+                width: 150px;
+                height: 100px;
+                margin-left: 50px;
+                transform: scale(2);
+                transition: 0.5s;
+                }
+            }
+            h3{
+                font-family: Rubik-Italic;
+                font-size: 30px;
+                }
+        }
+        p{
+            font-family: Rubik-Italic ;
+        }
+    }
+}
+@media(max-width:990px){
+    .cardsTestimonios{
+        flex-wrap: wrap;
+    }
+        
+}
+@media(max-width:500px){
+    .cardsTestimonios{
+        .card-testimonios{
+            .imgYtitulo{
+                img{
+                    width: 150px;
+                    height: 100px;
+                }
+                h3{
+                    font-size: 25px;
+                }
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media(max-width:400px){
+    .cardsTestimonios{
+        .card-testimonios{
+            .imgYtitulo{
+                img{
+                    width: 110px;
+                    height: 60px;
+                }
+                h3{
+                    font-size: 20px;
+                }
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}

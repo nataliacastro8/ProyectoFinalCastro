@@ -1,0 +1,44 @@
+footer{
+    background-color: #365902;
+    font-family: Rubik-Italic ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h6{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .logo{
+        font-size: 25px;
+        column-gap: 10px;
+        margin-right: 20px;
+        color: invert($color: #000000);
+    }
+}
+@media(max-width:730px){
+    footer{
+        h6{
+            font-size: 15px;
+        }
+    }
+}
+@media(max-width:465px){
+    footer{
+        h6{
+            font-size: 12px;
+        }
+        .logo{
+            font-size: 20px;
+        }
+    }
+}
+@media(max-width:370px){
+    footer{
+        h6{
+            font-size: 10px;
+        }
+        .logo{
+            font-size: 15px;
+        }
+    }
+}
