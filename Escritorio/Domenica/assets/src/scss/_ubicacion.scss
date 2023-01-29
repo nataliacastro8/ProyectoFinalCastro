@@ -8,13 +8,9 @@
         padding: 10px;
     }
 }
-
 @media (max-width:600px){
     .ubicacionInfo{
         font-size: 20px;
-    }
-    .mapa{
-        margin: 15px;
     }
 }
 
@@ -27,70 +23,50 @@
         }
     }
 }
-
 .mapaEindicaciones{
     display: flex;
     flex-wrap: wrap;
-    .mapa{
-        font-family: Rubik-Italic ;
-        margin: 25px;
-        width: 600px;
-        ul{
-            margin: 20px;
-            font-size: 20px;
-        }
-    }
-}
-
-.mediosTransporte{
-    display: flex;
-    align-items: flex-start;
-    padding-left: 25px;
-    h2{
-        background: $colorRosaDifuminado;
-        font-family: Rubik-Italic ;
-        padding: 20px;
-    }
-}
-
-@media (max-width:1300px){
-    .mapaEindicaciones{
-        justify-content: center;
-    }
+    justify-content: center;
+    padding: 20px;
+    column-gap: 20px;
+    line-height: 45px;
     .mediosTransporte{
-        justify-content: start;
+            background: #d9325ea2;
+            font-family: Rubik-Italic ;
+            padding: 5px;
+            width: 320px;
     }
-}
-
-.ColeTrenSubte{
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
     p{
         font-family: Rubik-Italic ;
-        font-weight: 800;
-        line-height: 50px;
-        font-size: 18px;
     }
 }
-@media (max-width:555px){
-    .mapa{
-        li{
+@media (max-width:500px){
+    .mapaEindicaciones{
+        .iconos{
+            font-size: 13px;
+        }
+        .mediosTransporte{
             font-size: 15px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            width: 205px;
+        }
+        p{
+            font-size: 13px;
         }
     }
-    .mediosTransporte{
-        padding: 20px;
-        h2{
-            font-size: 15px;
-         }
-    }
-    .ColeTrenSubte{
-        display: flex;
-        justify-content: start;
-        margin-left: 25px;
+}
+@media (max-width:400px){
+    .mapaEindicaciones{
+        .iconos{
+            font-size: 10px;
+        }
+        .mediosTransporte{
+            font-size: 13px;
+            width: 180px;
+        }
         p{
-            font-size: 12px;
+            font-size: 10px;
         }
     }
 }

@@ -10,12 +10,13 @@
         width: 600px;
         column-gap: 50px;
         padding: 20px;
+        border-radius: 10px;
         img{
             height: 150px;
         }
         .InfoTeamDulceSalado{
             a{
-                @include a ($colorRosaDifuminado, #000000)
+                @include a (#365902, #000000);
             }
         }
     }

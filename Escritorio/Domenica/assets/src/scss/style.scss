@@ -1,5 +1,7 @@
-@import "variables";
 @import "reset";
+@import "variables";
+@import "extend";
+@import "mixin";
 @import "bodygeneral";
 @import "fondogeneral";
 @import "font";
@@ -17,7 +19,5 @@
 @import "titulostienda";
 @import "productodestacado";
 @import "cardsproductos";
-@import "extend";
-@import "mixin";
 
 
